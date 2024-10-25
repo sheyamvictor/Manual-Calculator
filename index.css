@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#mainContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+    height: 600px;
+    
+}
+
+h1{
+    text-align: center;
+    color: darkslategrey;
+}
+
+.calBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 16px;
+    padding: 10px;
+    background-color: bisque;
+    height: 200px;
+    border-radius: 2px;
+  
+}
+#operator1,#operator2{
+    padding: 10px;
+    outline: none;
+    margin: 5px;
+    border: blue;
+   
+    border-radius: 2px;
+}
+
+#section{
+    flex-wrap: wrap;
+    font-size: medium;
+    font-weight: bold;
+    width: 10em;
+    padding: 10px;
+    background-color: aquamarine;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+.box2{
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.585);
+    color: azure;
+    padding: 16px;
+    margin-top: 10px;
+    font-size: medium;
+    text-shadow: aqua 2px;
+    text-align: center;
+   
+}
+
